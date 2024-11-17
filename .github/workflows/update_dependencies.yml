@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 # TODO: update workflow permissions to least privilege after auditing all the APIs used
-# permissions:  # limit the permissions of the GITHIUB_TOKEN to reading repository contents
+# permissions:  # limit the permissions of the GITHUB_TOKEN to reading repository contents
 #   contents: read
 
 jobs:
@@ -101,7 +101,7 @@ jobs:
           body: "Firebase Api update"
           labels: |
             automated pr
-            firease_api
+            firebase_api
           reviewers: adamvduke,jakeouellette,tonybaroneee
           draft: false
 
